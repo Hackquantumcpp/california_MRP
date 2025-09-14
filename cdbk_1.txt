@@ -1,0 +1,1888 @@
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                      CODEBOOK
+
+
+                                 IGS Poll: 2024_01
+                                          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      IGS Poll: 2024_01                                                 Page i
+
+
+                                      CONTENTS
+
+
+      item                                                                page
+
+      Q3a                Q3a If the November 2024 general election for Pr    1
+      Q3b                Q3b If the November 2024 general election for Pr    1
+      Q4                 Q4 What if the choices in the November 2024 pres    1
+      Q5                 Q5 What if the choices were President Joe Biden     1
+      Q6                 Q6 What if the choices were Vice President Kamal    2
+      Q12                Q12 Do you approve or disapprove of the way Joe     2
+      Q13                Q13 Do you approve or disapprove of the job Pres    2
+      Q14                Q14 In the current situation in Gaza and the Wes    2
+      Q15                Q15 Do you think the Israeli military response t    3
+      Q16                Q16 What do you feel would be the best course of    3
+      Q17                Q17 Which of the following do you think would be    3
+      Q20                Q20 How secure do you feel U.S. borders are in p    3
+      Q21                Q21 To what extent do you feel that unauthorized    4
+      Q22                Q22 U.S. law grants certain rights to people who    4
+      Q23                Q23 If the US were to impose more restrictive la    4
+      Q24                Q24 Next, turning to matters here in California.    4
+      Q25                Q25 Do you approve or disapprove of the way Gavi    5
+      Q26a               Q26a State budget analysts are now projecting th    5
+      Q26b_1             Q26b How would you prefer that the state deal wi    5
+      Q26b_2             Q26b How would you prefer that the state deal wi    5
+      Q26b_3             Q26b How would you prefer that the state deal wi    6
+      Q26b_4             Q26b How would you prefer that the state deal wi    6
+      Q26b_5             Q26b How would you prefer that the state deal wi    6
+      AD                 AD (Assembly District)                              6
+      AGE                AGE (from PDI listing)                              6
+      CD                 CD (Congressional District)                         6
+      CNTY               CNTY (county)                                       7
+      CompletionDate     Date survey completed                               7
+      F12                F12  (2016 primary election voting)                 7
+      F13                F13 (2016 general election voting)                  7
+      F14                F14  (2018 primary election voting)                 8
+      F15                F15  (2018 general election voting)                 8
+      F16                F16 (2020 primary election voting)                  8
+      F17                F17 (2020 general election voting)                  8
+      F18                F18 (2020 recall election voting)                   9
+      F19                F19 (2022 primary election voting)                  9
+      F20                F20 (2022 general election voting)                  9
+      lang               Language of survey                                  9
+      latlang            Coding of dominant language of Latinos             10
+      likely             Likely voter definition                            10
+      pid3               Party registration                                 10
+      region             Region of state definitions                        10
+      region_coarse      Region of state (coarse, used for tables)          11
+
+
+                                  August 20, 2025
+
+
+
+      IGS Poll: 2024_01                                                Page ii
+
+
+      item                                                                page
+
+      RZIP               Zip code                                           11
+      RZIP4              Zip code II                                        11
+      SD                 SD (State Senate District)                         11
+      SEX                sex (from PDI listing)                             11
+      URBANICITY         Urbanicity (from PDI listing)                      12
+      Q40                Q40 What is your age?                              12
+      Q41                Q41 How would you describe your gender?            12
+      Q42                Q42 What is the highest year of school that you    12
+      Q43_1              Q43 Which of the following best describes your r   13
+      Q43_2              Q43 Which of the following best describes your r   13
+      Q43_3              Q43 Which of the following best describes your r   13
+      Q43_4              Q43 Which of the following best describes your r   13
+      Q43_5              Q43 Which of the following best describes your r   13
+      Q43_6              Q43 Which of the following best describes your r   14
+      Q43_7              Q43 Which of the following best describes your r   14
+      Q44                Q44 As a Native American, do you have tribal aff   14
+      Q45                Q45 Are you a Latina or is your family ancestry    14
+      Q46                Q46 Do you speak English primarily, or do you sp   14
+      Q47_argentina      Q47 Hispanics and Latinos have their roots in ma   15
+      Q47_bolivia        Q47 Hispanics and Latinos have their roots in ma   15
+      Q47_chile          Q47 Hispanics and Latinos have their roots in ma   15
+      Q47_colombia       Q47 Hispanics and Latinos have their roots in ma   15
+      Q47_costa_rica     Q47 Hispanics and Latinos have their roots in ma   15
+      Q47_cuba           Q47 Hispanics and Latinos have their roots in ma   16
+      Q47_ecuador        Q47 Hispanics and Latinos have their roots in ma   16
+      Q47_el_salvador    Q47 Hispanics and Latinos have their roots in ma   16
+      Q47_guatemala      Q47 Hispanics and Latinos have their roots in ma   16
+      Q47_honduras       Q47 Hispanics and Latinos have their roots in ma   16
+      Q47_mexico         Q47 Hispanics and Latinos have their roots in ma   17
+      Q47_nicaragua      Q47 Hispanics and Latinos have their roots in ma   17
+      Q47_others         Q47 Hispanics and Latinos have their roots in ma   17
+      Q47_panama         Q47 Hispanics and Latinos have their roots in ma   17
+      Q47_paraguay       Q47 Hispanics and Latinos have their roots in ma   17
+      Q47_peru           Q47 Hispanics and Latinos have their roots in ma   18
+      Q47_puerto_rico    Q47 Hispanics and Latinos have their roots in ma   18
+      Q47_uruguay        Q47 Hispanics and Latinos have their roots in ma   18
+      Q47_venezuela      Q47 Hispanics and Latinos have their roots in ma   18
+      Q48_bangladesh     Q48 Asian Americans have their roots in many dif   18
+      Q48_bhutan         Q48 Asian Americans have their roots in many dif   19
+      Q48_burma          Q48 Asian Americans have their roots in many dif   19
+      Q48_cambodia       Q48 Asian Americans have their roots in many dif   19
+      Q48_china          Q48 Asian Americans have their roots in many dif   19
+      Q48_guam           Q48 Asian Americans have their roots in many dif   19
+      Q48_hawaii         Q48 Asian Americans have their roots in many dif   20
+      Q48_hmong          Q48 Asian Americans have their roots in many dif   20
+      Q48_india          Q48 Asian Americans have their roots in many dif   20
+
+
+                                  August 20, 2025
+
+
+
+      IGS Poll: 2024_01                                               Page iii
+
+
+      item                                                                page
+
+      Q48_indonesia      Q48 Asian Americans have their roots in many dif   20
+      Q48_japan          Q48 Asian Americans have their roots in many dif   20
+      Q48_korea          Q48 Asian Americans have their roots in many dif   21
+      Q48_laos           Q48 Asian Americans have their roots in many dif   21
+      Q48_malaysia       Q48 Asian Americans have their roots in many dif   21
+      Q48_nepal          Q48 Asian Americans have their roots in many dif   21
+      Q48_others         Q48 Asian Americans have their roots in many dif   21
+      Q48_pakistan       Q48 Asian Americans have their roots in many dif   22
+      Q48_philippines    Q48 Asian Americans have their roots in many dif   22
+      Q48_samoa          Q48 Asian Americans have their roots in many dif   22
+      Q48_sri_lanka      Q48 Asian Americans have their roots in many dif   22
+      Q48_taiwan         Q48 Asian Americans have their roots in many dif   22
+      Q48_thailand       Q48 Asian Americans have their roots in many dif   23
+      Q48_vietnam        Q48 Asian Americans have their roots in many dif   23
+      Q49                Q49 Were you born in the United States or anothe   23
+      Q50a               Q50a Generally speaking in politics do you think   23
+      Q50b               Q50b Would you identify yourself as a strong or    23
+      Q50c               Q50c Would you identify yourself as a strong or    24
+      Q50d               Q50d As of today, do you lean more to the Democr   24
+      Q51                Q51 In general, how would you describe your poli   24
+      Q52                Q52 Thinking back to the last Presidential elect   24
+      Q53                Q53 Which of the following best describes your p   25
+      Q54                Q54 Are you or is anyone in your household a mem   25
+      Q54x               Q54x Do you own or rent your current residence?    25
+      Q55                Q55 We don't want to know your exact income, but   25
+      Q56_1              Q56 What is your sexual orientation? (Multiple s   26
+      Q56_2              Q56 What is your sexual orientation? (Multiple s   26
+      Q56_3              Q56 What is your sexual orientation? (Multiple s   26
+      Q56_4              Q56 What is your sexual orientation? (Multiple s   26
+      Q56_5              Q56 What is your sexual orientation? (Multiple s   26
+      Q56_6              Q56 What is your sexual orientation? (Multiple s   27
+      Q56_7              Q56 What is your sexual orientation? (Multiple s   27
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  August 20, 2025
+
+
+
+      IGS Poll: 2024_01                                                 Page 1
+
+
+      Q3a                Q3a If the November 2024 general election for President were held today and the following candidates were listed on the ballot, for whom would you vote?
+
+           VALUE  LABEL
+               1  Joseph R. Biden Jr., Democrat
+               2  Donald J. Trump, Republican
+               3  Robert F. Kennedy Jr., independent
+               4  Cornel West, Peace and Freedom
+               5  Jill Stein, Green Party
+               6  Undecided
+
+           Data type: numeric
+           Record/column: 1/1
+
+      ________________________________________________________________________
+
+      Q3b                Q3b If the November 2024 general election for President were held today and the following candidates were listed on the ballot, who would be your second choice?
+
+           VALUE  LABEL
+               1  Joseph R. Biden Jr., Democrat
+               2  Donald J. Trump, Republican
+               3  Robert F. Kennedy Jr., independent
+               4  Cornel West, Peace and Freedom
+               5  Jill Stein, Green Party
+               6  Undecided
+
+           Data type: numeric
+           Record/column: 1/3
+
+      ________________________________________________________________________
+
+      Q4                 Q4 What if the choices in the November 2024 presidential election were only between President Joe Biden and former President Donald Trump?  If the election were held today for whom would you vote?
+
+           VALUE  LABEL
+               1  Joseph R. Biden Jr., Democrat, President
+               2  Donald J. Trump, Republican
+               3  Undecided
+
+           Data type: numeric
+           Record/column: 1/5
+
+      ________________________________________________________________________
+
+      Q5                 Q5 What if the choices were President Joe Biden and former South Carolina Governor Nikki Haley?  If the election for President were held today for whom would you vote?
+
+           VALUE  LABEL
+               1  Joseph R. Biden Jr.
+               2  Nikki Haley, Republican
+               3  Undecided
+
+           Data type: numeric
+           Record/column: 1/7
+
+
+
+                                  August 20, 2025
+
+
+
+      IGS Poll: 2024_01                                                 Page 2
+
+
+      Q6                 Q6 What if the choices were Vice President Kamala Harris and former President Donald Trump.  If the election for President were held today for whom would you vote?
+
+           VALUE  LABEL
+               1  Kamala Harris, Democrat
+               2  Donald J. Trump, Republican
+               3  Undecided
+
+           Data type: numeric
+           Record/column: 1/9
+
+      ________________________________________________________________________
+
+      Q12                Q12 Do you approve or disapprove of the way Joe Biden is handling his job as President?
+
+           VALUE  LABEL
+               1  Approve strongly
+               2  Approve somewhat
+               3  Disapprove somewhat
+               4  Disapprove strongly
+               5  No opinion
+
+           Data type: numeric
+           Record/column: 1/11
+
+      ________________________________________________________________________
+
+      Q13                Q13 Do you approve or disapprove of the job President Biden is doing with regard to the fighting between Israel and Hamas?
+
+           VALUE  LABEL
+               1  Approve strongly
+               2  Approve somewhat
+               3  Disapprove somewhat
+               4  Disapprove strongly
+               5  No opinion
+
+           Data type: numeric
+           Record/column: 1/13
+
+      ________________________________________________________________________
+
+      Q14                Q14 In the current situation in Gaza and the West Bank, are your sympathies more with the Israelis or more with the Palestinians?
+
+           VALUE  LABEL
+               1  The Israelis
+               2  The Palestinians
+               3  About equal
+               4  No opinion
+
+           Data type: numeric
+           Record/column: 1/15
+
+
+
+
+                                  August 20, 2025
+
+
+
+      IGS Poll: 2024_01                                                 Page 3
+
+
+      Q15                Q15 Do you think the Israeli military response to Hamas’s attack on Israel has been too much, too little or about right?
+
+           VALUE  LABEL
+               1  Too much
+               2  Too little
+               3  About equal
+               4  No opinion
+
+           Data type: numeric
+           Record/column: 1/17
+
+      ________________________________________________________________________
+
+      Q16                Q16 What do you feel would be the best course of action for Israel to take in the current situation?
+
+           VALUE  LABEL
+               1  Israel should continue its military actions against Hamas until Hamas is no longer a viable force in Gaza.
+               2  Israel should declare a cease fire and negotiate an end to the war even if Hamas remains a viable force in Gaza.
+               3  No opinion
+
+           Data type: numeric
+           Record/column: 1/19
+
+      ________________________________________________________________________
+
+      Q17                Q17 Which of the following do you think would be the best resolution of the Israel - Palestine conflict?
+
+           VALUE  LABEL
+               1  Two separate states, a Jewish state alongside an independent Palestinian state.
+               2  A single Palestinian state encompassing all of the territory that is currently Israel, the West Bank and Gaza.
+               3  A single Israeli state encompassing all of the territory that is currently Israel, the West Bank and Gaza.
+               4  A single state that is neither Jewish nor Palestinian, encompassing all of the territory that is currently Israel, the
+               5  No opinion
+
+           Data type: numeric
+           Record/column: 1/21
+
+      ________________________________________________________________________
+
+      Q20                Q20 How secure do you feel U.S. borders are in preventing people from entering the country illegally?
+
+           VALUE  LABEL
+               1  Very secure
+               2  Somewhat secure
+               3  Not too secure
+               4  Not at all secure
+               5  No opinion
+
+           Data type: numeric
+           Record/column: 1/23
+
+
+
+
+                                  August 20, 2025
+
+
+
+      IGS Poll: 2024_01                                                 Page 4
+
+
+      Q21                Q21 To what extent do you feel that unauthorized immigrants coming across the border are a burden to the US?  In your opinion are they. . .
+
+           VALUE  LABEL
+               1  A major burden
+               2  A minor burden
+               3  Not a burden
+               4  No opinion
+
+           Data type: numeric
+           Record/column: 1/25
+
+      ________________________________________________________________________
+
+      Q22                Q22 U.S. law grants certain rights to people who come to the U.S. seeking asylum because of persecution in their home countries.  Do you think current federal laws on asylum are too lenient, too restrictive, or about right?
+
+           VALUE  LABEL
+               1  Too lenient
+               2  Too restrictive
+               3  About equal
+               4  No opinion
+
+           Data type: numeric
+           Record/column: 1/27
+
+      ________________________________________________________________________
+
+      Q23                Q23 If the US were to impose more restrictive laws for people coming to the U.S. seeking asylum, how effective do you think this would be in reducing the number of immigrants showing up at the border asserting that they are fleeing persecution in their home countries?
+
+           VALUE  LABEL
+               1  Very effective
+               2  Somewhat effective
+               3  Not too effective
+               4  Not at all effective
+               5  No opinion
+
+           Data type: numeric
+           Record/column: 1/29
+
+      ________________________________________________________________________
+
+      Q24                Q24 Next, turning to matters here in California.  Do you think things in California are generally going in the right direction or do you feel things are off on the wrong track?
+
+           VALUE  LABEL
+               1  Right direction
+               2  Wrong track
+               3  No opinion
+
+           Data type: numeric
+           Record/column: 1/31
+
+
+
+
+
+                                  August 20, 2025
+
+
+
+      IGS Poll: 2024_01                                                 Page 5
+
+
+      Q25                Q25 Do you approve or disapprove of the way Gavin Newsom is handling his job as Governor of California?
+
+           VALUE  LABEL
+               1  Approve strongly
+               2  Approve somewhat
+               3  Disapprove somewhat
+               4  Disapprove strongly
+               5  No opinion
+
+           Data type: numeric
+           Record/column: 1/33
+
+      ________________________________________________________________________
+
+      Q26a               Q26a State budget analysts are now projecting that the state will be facing a large budget deficit next year, and unless economic conditions improve, in the following years as well.  How serious a problem do you feel this is for the state?
+
+           VALUE  LABEL
+               1  Extremely serious
+               2  Somewhat serious
+               3  Not too serious
+               4  Not at all serious
+               5  No opinion
+
+           Data type: numeric
+           Record/column: 1/35
+
+      ________________________________________________________________________
+
+      Q26b_1             Q26b How would you prefer that the state deal with this deficit?  You may select more than one category. (1): Through spending cuts to government services
+
+           VALUE  LABEL
+               1  Selected
+
+           Data type: numeric
+           Record/column: 1/37
+
+      ________________________________________________________________________
+
+      Q26b_2             Q26b How would you prefer that the state deal with this deficit?  You may select more than one category. (2): By tapping into the state's rainy day fund
+
+           VALUE  LABEL
+               1  Selected
+
+           Data type: numeric
+           Record/column: 1/39
+
+
+
+
+
+
+
+
+
+                                  August 20, 2025
+
+
+
+      IGS Poll: 2024_01                                                 Page 6
+
+
+      Q26b_3             Q26b How would you prefer that the state deal with this deficit?  You may select more than one category. (3): By borrowing from special funds
+
+           VALUE  LABEL
+               1  Selected
+
+           Data type: numeric
+           Record/column: 1/41
+
+      ________________________________________________________________________
+
+      Q26b_4             Q26b How would you prefer that the state deal with this deficit?  You may select more than one category. (4): By raising taxes
+
+           VALUE  LABEL
+               1  Selected
+
+           Data type: numeric
+           Record/column: 1/43
+
+      ________________________________________________________________________
+
+      Q26b_5             Q26b How would you prefer that the state deal with this deficit?  You may select more than one category. (5): No opinion
+
+           VALUE  LABEL
+               1  Selected
+
+           Data type: numeric
+           Record/column: 1/45
+
+      ________________________________________________________________________
+
+      AD                 AD (Assembly District)
+
+           Data type: numeric
+           Record/columns: 1/47-48
+
+      ________________________________________________________________________
+
+      AGE                AGE (from PDI listing)
+
+           Data type: numeric
+           Record/columns: 1/50-51
+
+      ________________________________________________________________________
+
+      CD                 CD (Congressional District)
+
+           Data type: numeric
+           Record/columns: 1/53-54
+
+
+
+
+
+
+
+
+                                  August 20, 2025
+
+
+
+      IGS Poll: 2024_01                                                 Page 7
+
+
+      CNTY               CNTY (county)
+
+           Data type: numeric
+           Record/columns: 1/56-57
+
+      ________________________________________________________________________
+
+      CompletionDate     Date survey completed
+
+           VALUE  LABEL
+               1  1/4/24
+               2  1/5/24
+               3  1/6/24
+               4  1/7/24
+               5  1/8/24
+
+           Data type: numeric
+           Record/column: 1/59
+
+      ________________________________________________________________________
+
+      F12                F12  (2016 primary election voting)
+
+           VALUE  LABEL
+               1  Absentee voter
+               2  Non-voter
+               3  Precinct voter
+
+           Data type: numeric
+           Record/column: 1/61
+
+      ________________________________________________________________________
+
+      F13                F13 (2016 general election voting)
+
+           VALUE  LABEL
+               1  Absentee voter
+               2  Non-voter
+               3  Precinct voter
+
+           Data type: numeric
+           Record/column: 1/63
+
+
+
+
+
+
+
+
+
+
+
+
+                                  August 20, 2025
+
+
+
+      IGS Poll: 2024_01                                                 Page 8
+
+
+      F14                F14  (2018 primary election voting)
+
+           VALUE  LABEL
+               1  Absentee voter
+               2  Non-voter
+               3  Precinct voter
+
+           Data type: numeric
+           Record/column: 1/65
+
+      ________________________________________________________________________
+
+      F15                F15  (2018 general election voting)
+
+           VALUE  LABEL
+               1  Absentee voter
+               2  Non-voter
+               3  Precinct voter
+
+           Data type: numeric
+           Record/column: 1/67
+
+      ________________________________________________________________________
+
+      F16                F16 (2020 primary election voting)
+
+           VALUE  LABEL
+               1  Absentee voter
+               2  Non-voter
+               3  Precinct voter
+
+           Data type: numeric
+           Record/column: 1/69
+
+      ________________________________________________________________________
+
+      F17                F17 (2020 general election voting)
+
+           VALUE  LABEL
+               1  Absentee voter
+               2  Non-voter
+               3  Precinct voter
+
+           Data type: numeric
+           Record/column: 1/71
+
+
+
+
+
+
+
+
+
+                                  August 20, 2025
+
+
+
+      IGS Poll: 2024_01                                                 Page 9
+
+
+      F18                F18 (2020 recall election voting)
+
+           VALUE  LABEL
+               1  Absentee voter
+               2  Non-voter
+               3  Precinct voter
+
+           Data type: numeric
+           Record/column: 1/73
+
+      ________________________________________________________________________
+
+      F19                F19 (2022 primary election voting)
+
+           VALUE  LABEL
+               1  Absentee voter
+               2  Non-voter
+               3  Precinct voter
+
+           Data type: numeric
+           Record/column: 1/75
+
+      ________________________________________________________________________
+
+      F20                F20 (2022 general election voting)
+
+           VALUE  LABEL
+               1  Absentee voter
+               2  Non-voter
+               3  Precinct voter
+
+           Data type: numeric
+           Record/column: 1/77
+
+      ________________________________________________________________________
+
+      lang               Language of survey
+
+           VALUE  LABEL
+               1  English
+               2  Spanish
+
+           Data type: numeric
+           Record/column: 1/79
+
+
+
+
+
+
+
+
+
+
+                                  August 20, 2025
+
+
+
+      IGS Poll: 2024_01                                                Page 10
+
+
+      latlang            Coding of dominant language of Latinos
+
+           VALUE  LABEL
+               1  English dominant
+               2  Spanish dominant
+
+           Data type: numeric
+           Record/column: 1/81
+
+      ________________________________________________________________________
+
+      likely             Likely voter definition
+
+           VALUE  LABEL
+               1  likely voter
+               2  not lv
+
+           Data type: numeric
+           Record/column: 1/83
+
+      ________________________________________________________________________
+
+      pid3               Party registration
+
+           VALUE  LABEL
+               1  Democrat
+               2  No Party Preference
+               3  Other Party
+               4  Republican
+
+           Data type: numeric
+           Record/column: 1/85
+
+      ________________________________________________________________________
+
+      region             Region of state definitions
+
+           VALUE  LABEL
+               1  Bay Area
+               2  Central Coast
+               3  Central Valley North
+               4  Central Valley South
+               5  Inland Empire
+               6  Los Angeles
+               7  North Coast/Sierras
+               8  Orange
+               9  San Diego
+
+           Data type: numeric
+           Record/column: 1/87
+
+
+
+
+                                  August 20, 2025
+
+
+
+      IGS Poll: 2024_01                                                Page 11
+
+
+      region_coarse      Region of state (coarse, used for tables)
+
+           VALUE  LABEL
+               1  Bay Area
+               2  Central Coast
+               3  Central Valley,4
+               5  Los Angeles
+               6  North Coast/Sierras
+               7  Orange
+               8  San Diego
+
+           Data type: numeric
+           Record/column: 1/89
+
+      ________________________________________________________________________
+
+      RZIP               Zip code
+
+           Data type: numeric
+           Record/columns: 1/91-95
+
+      ________________________________________________________________________
+
+      RZIP4              Zip code II
+
+           Data type: numeric
+           Record/columns: 1/97-100
+
+      ________________________________________________________________________
+
+      SD                 SD (State Senate District)
+
+           Data type: numeric
+           Record/columns: 1/102-103
+
+      ________________________________________________________________________
+
+      SEX                sex (from PDI listing)
+
+           VALUE  LABEL
+               1  Female
+               2  Male
+
+           Data type: numeric
+           Record/column: 1/105
+
+
+
+
+
+
+
+
+
+
+                                  August 20, 2025
+
+
+
+      IGS Poll: 2024_01                                                Page 12
+
+
+      URBANICITY         Urbanicity (from PDI listing)
+
+           VALUE  LABEL
+               1  Rural
+               2  Suburb/mix
+               3  Urban
+
+           Data type: numeric
+           Record/column: 1/107
+
+      ________________________________________________________________________
+
+      Q40                Q40 What is your age?
+
+           Data type: numeric
+           Record/columns: 1/109-110
+
+      ________________________________________________________________________
+
+      Q41                Q41 How would you describe your gender?
+
+           VALUE  LABEL
+               1  Male
+               2  Female
+               3  Transgender male
+               4  Transgender female
+               5  Non-binary
+
+           Data type: numeric
+           Record/column: 1/112
+
+      ________________________________________________________________________
+
+      Q42                Q42 What is the highest year of school that you have finished and gotten credit for?¬†
+
+           VALUE  LABEL
+               1  8th grade or less
+               2  Some high school
+               3  High school graduate
+               4  Trade/vocational school
+               5  1-2 years college/Associate degree
+               6  3 or more years college (no Bachelor's degree)
+               7  College graduate (Bachelor's degree) 8
+
+           Data type: numeric
+           Record/column: 1/114
+
+
+
+
+
+
+
+
+                                  August 20, 2025
+
+
+
+      IGS Poll: 2024_01                                                Page 13
+
+
+      Q43_1              Q43 Which of the following best describes your race?  You may select more than one race, if applicable. Option: White or Caucasian
+
+           VALUE  LABEL
+               1  White or Caucasian
+
+           Data type: numeric
+           Record/column: 1/116
+
+      ________________________________________________________________________
+
+      Q43_2              Q43 Which of the following best describes your race?  You may select more than one race, if applicable. Option: Latino/Latina/Hispanic
+
+           VALUE  LABEL
+               1  Latino/Latina/Hispanic
+
+           Data type: numeric
+           Record/column: 1/118
+
+      ________________________________________________________________________
+
+      Q43_3              Q43 Which of the following best describes your race?  You may select more than one race, if applicable. Option: Asian or Pacific Islander
+
+           VALUE  LABEL
+               1  Asian or Pacific Islander
+
+           Data type: numeric
+           Record/column: 1/120
+
+      ________________________________________________________________________
+
+      Q43_4              Q43 Which of the following best describes your race?  You may select more than one race, if applicable. Option: Black or African American
+
+           VALUE  LABEL
+               1  Black or African American
+
+           Data type: numeric
+           Record/column: 1/122
+
+      ________________________________________________________________________
+
+      Q43_5              Q43 Which of the following best describes your race?  You may select more than one race, if applicable. Option: Native American or American Indian
+
+           VALUE  LABEL
+               1  Native American or American Indian
+
+           Data type: numeric
+           Record/column: 1/124
+
+
+
+
+
+
+
+
+                                  August 20, 2025
+
+
+
+      IGS Poll: 2024_01                                                Page 14
+
+
+      Q43_6              Q43 Which of the following best describes your race?  You may select more than one race, if applicable. Option: Alaskan Native
+
+           VALUE  LABEL
+               1  Alaskan Native
+
+           Data type: numeric
+           Record/column: 1/126
+
+      ________________________________________________________________________
+
+      Q43_7              Q43 Which of the following best describes your race?  You may select more than one race, if applicable. Option: Other
+
+           VALUE  LABEL
+               1  Other
+
+           Data type: numeric
+           Record/column: 1/128
+
+      ________________________________________________________________________
+
+      Q44                Q44 As a Native American, do you have tribal affiliation?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+
+           Data type: numeric
+           Record/column: 1/130
+
+      ________________________________________________________________________
+
+      Q45                Q45 Are you a Latina or is your family ancestry of Hispanic origin, such as Mexican-American, Central American, South American or Spanish-speaking Latin America?¬†
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+
+           Data type: numeric
+           Record/column: 1/132
+
+      ________________________________________________________________________
+
+      Q46                Q46 Do you speak English primarily, or do you speak Spanish primarily?
+
+           VALUE  LABEL
+               1  Speak English primarily
+               2  Speak Spanish primarily
+               3  Speak both English and Spanish
+
+           Data type: numeric
+           Record/column: 1/134
+
+
+
+
+                                  August 20, 2025
+
+
+
+      IGS Poll: 2024_01                                                Page 15
+
+
+      Q47_argentina      Q47 Hispanics and Latinos have their roots in many different Spanish-speaking countries in Latin America.  To what country or communities do you or your family trace their ancestry?
+
+           VALUE  LABEL
+               1  Argentina
+
+           Data type: numeric
+           Record/column: 1/136
+
+      ________________________________________________________________________
+
+      Q47_bolivia        Q47 Hispanics and Latinos have their roots in many different Spanish-speaking countries in Latin America.  To what country or communities do you or your family trace their ancestry?
+
+           VALUE  LABEL
+               1  Bolivia
+
+           Data type: numeric
+           Record/column: 1/138
+
+      ________________________________________________________________________
+
+      Q47_chile          Q47 Hispanics and Latinos have their roots in many different Spanish-speaking countries in Latin America.  To what country or communities do you or your family trace their ancestry?
+
+           VALUE  LABEL
+               1  Chile
+
+           Data type: numeric
+           Record/column: 1/140
+
+      ________________________________________________________________________
+
+      Q47_colombia       Q47 Hispanics and Latinos have their roots in many different Spanish-speaking countries in Latin America.  To what country or communities do you or your family trace their ancestry?
+
+           VALUE  LABEL
+               1  Colombia
+
+           Data type: numeric
+           Record/column: 1/142
+
+      ________________________________________________________________________
+
+      Q47_costa_rica     Q47 Hispanics and Latinos have their roots in many different Spanish-speaking countries in Latin America.  To what country or communities do you or your family trace their ancestry?
+
+           VALUE  LABEL
+               1  Costa Rica
+
+           Data type: numeric
+           Record/column: 1/144
+
+
+
+
+
+
+
+
+                                  August 20, 2025
+
+
+
+      IGS Poll: 2024_01                                                Page 16
+
+
+      Q47_cuba           Q47 Hispanics and Latinos have their roots in many different Spanish-speaking countries in Latin America.  To what country or communities do you or your family trace their ancestry?
+
+           VALUE  LABEL
+               1  Cuba
+
+           Data type: numeric
+           Record/column: 1/146
+
+      ________________________________________________________________________
+
+      Q47_ecuador        Q47 Hispanics and Latinos have their roots in many different Spanish-speaking countries in Latin America.  To what country or communities do you or your family trace their ancestry?
+
+           VALUE  LABEL
+               1  Ecuador
+
+           Data type: numeric
+           Record/column: 1/148
+
+      ________________________________________________________________________
+
+      Q47_el_salvador    Q47 Hispanics and Latinos have their roots in many different Spanish-speaking countries in Latin America.  To what country or communities do you or your family trace their ancestry?
+
+           VALUE  LABEL
+               1  El Salvador
+
+           Data type: numeric
+           Record/column: 1/150
+
+      ________________________________________________________________________
+
+      Q47_guatemala      Q47 Hispanics and Latinos have their roots in many different Spanish-speaking countries in Latin America.  To what country or communities do you or your family trace their ancestry?
+
+           VALUE  LABEL
+               1  Guatemala
+
+           Data type: numeric
+           Record/column: 1/152
+
+      ________________________________________________________________________
+
+      Q47_honduras       Q47 Hispanics and Latinos have their roots in many different Spanish-speaking countries in Latin America.  To what country or communities do you or your family trace their ancestry?
+
+           VALUE  LABEL
+               1  Honduras
+
+           Data type: numeric
+           Record/column: 1/154
+
+
+
+
+
+
+
+
+                                  August 20, 2025
+
+
+
+      IGS Poll: 2024_01                                                Page 17
+
+
+      Q47_mexico         Q47 Hispanics and Latinos have their roots in many different Spanish-speaking countries in Latin America.  To what country or communities do you or your family trace their ancestry?
+
+           VALUE  LABEL
+               1  Mexico
+
+           Data type: numeric
+           Record/column: 1/156
+
+      ________________________________________________________________________
+
+      Q47_nicaragua      Q47 Hispanics and Latinos have their roots in many different Spanish-speaking countries in Latin America.  To what country or communities do you or your family trace their ancestry?
+
+           VALUE  LABEL
+               1  Nicaragua
+
+           Data type: numeric
+           Record/column: 1/158
+
+      ________________________________________________________________________
+
+      Q47_others         Q47 Hispanics and Latinos have their roots in many different Spanish-speaking countries in Latin America.  To what country or communities do you or your family trace their ancestry?
+
+           VALUE  LABEL
+               1  Other
+
+           Data type: numeric
+           Record/column: 1/160
+
+      ________________________________________________________________________
+
+      Q47_panama         Q47 Hispanics and Latinos have their roots in many different Spanish-speaking countries in Latin America.  To what country or communities do you or your family trace their ancestry?
+
+           VALUE  LABEL
+               1  Panama
+
+           Data type: numeric
+           Record/column: 1/162
+
+      ________________________________________________________________________
+
+      Q47_paraguay       Q47 Hispanics and Latinos have their roots in many different Spanish-speaking countries in Latin America.  To what country or communities do you or your family trace their ancestry?
+
+           VALUE  LABEL
+               1  Paraguay
+
+           Data type: numeric
+           Record/column: 1/164
+
+
+
+
+
+
+
+
+                                  August 20, 2025
+
+
+
+      IGS Poll: 2024_01                                                Page 18
+
+
+      Q47_peru           Q47 Hispanics and Latinos have their roots in many different Spanish-speaking countries in Latin America.  To what country or communities do you or your family trace their ancestry?
+
+           VALUE  LABEL
+               1  Peru
+
+           Data type: numeric
+           Record/column: 1/166
+
+      ________________________________________________________________________
+
+      Q47_puerto_rico    Q47 Hispanics and Latinos have their roots in many different Spanish-speaking countries in Latin America.  To what country or communities do you or your family trace their ancestry?
+
+           VALUE  LABEL
+               1  Puerto Rico
+
+           Data type: numeric
+           Record/column: 1/168
+
+      ________________________________________________________________________
+
+      Q47_uruguay        Q47 Hispanics and Latinos have their roots in many different Spanish-speaking countries in Latin America.  To what country or communities do you or your family trace their ancestry?
+
+           VALUE  LABEL
+               1  Uruguay
+
+           Data type: numeric
+           Record/column: 1/170
+
+      ________________________________________________________________________
+
+      Q47_venezuela      Q47 Hispanics and Latinos have their roots in many different Spanish-speaking countries in Latin America.  To what country or communities do you or your family trace their ancestry?
+
+           VALUE  LABEL
+               1  Venezuela
+
+           Data type: numeric
+           Record/column: 1/172
+
+      ________________________________________________________________________
+
+      Q48_bangladesh     Q48 Asian Americans have their roots in many different countries in Asia.  To what country or communities do you or your family trace their ancestry?
+
+           VALUE  LABEL
+               1  Bangladesh
+
+           Data type: numeric
+           Record/column: 1/174
+
+
+
+
+
+
+
+
+                                  August 20, 2025
+
+
+
+      IGS Poll: 2024_01                                                Page 19
+
+
+      Q48_bhutan         Q48 Asian Americans have their roots in many different countries in Asia.  To what country or communities do you or your family trace their ancestry?
+
+           VALUE  LABEL
+               1  Bhutan
+
+           Data type: numeric
+           Record/column: 1/176
+
+      ________________________________________________________________________
+
+      Q48_burma          Q48 Asian Americans have their roots in many different countries in Asia.  To what country or communities do you or your family trace their ancestry?
+
+           VALUE  LABEL
+               1  Burma
+
+           Data type: numeric
+           Record/column: 1/178
+
+      ________________________________________________________________________
+
+      Q48_cambodia       Q48 Asian Americans have their roots in many different countries in Asia.  To what country or communities do you or your family trace their ancestry?
+
+           VALUE  LABEL
+               1  Cambodia
+
+           Data type: numeric
+           Record/column: 1/180
+
+      ________________________________________________________________________
+
+      Q48_china          Q48 Asian Americans have their roots in many different countries in Asia.  To what country or communities do you or your family trace their ancestry?
+
+           VALUE  LABEL
+               1  China
+
+           Data type: numeric
+           Record/column: 1/182
+
+      ________________________________________________________________________
+
+      Q48_guam           Q48 Asian Americans have their roots in many different countries in Asia.  To what country or communities do you or your family trace their ancestry?
+
+           VALUE  LABEL
+               1  Guam
+
+           Data type: numeric
+           Record/column: 1/184
+
+
+
+
+
+
+
+
+                                  August 20, 2025
+
+
+
+      IGS Poll: 2024_01                                                Page 20
+
+
+      Q48_hawaii         Q48 Asian Americans have their roots in many different countries in Asia.  To what country or communities do you or your family trace their ancestry?
+
+           VALUE  LABEL
+               1  Hawaii
+
+           Data type: numeric
+           Record/column: 1/186
+
+      ________________________________________________________________________
+
+      Q48_hmong          Q48 Asian Americans have their roots in many different countries in Asia.  To what country or communities do you or your family trace their ancestry?
+
+           VALUE  LABEL
+               1  Hmong
+
+           Data type: numeric
+           Record/column: 1/188
+
+      ________________________________________________________________________
+
+      Q48_india          Q48 Asian Americans have their roots in many different countries in Asia.  To what country or communities do you or your family trace their ancestry?
+
+           VALUE  LABEL
+               1  India
+
+           Data type: numeric
+           Record/column: 1/190
+
+      ________________________________________________________________________
+
+      Q48_indonesia      Q48 Asian Americans have their roots in many different countries in Asia.  To what country or communities do you or your family trace their ancestry?
+
+           VALUE  LABEL
+               1  Indonesia
+
+           Data type: numeric
+           Record/column: 1/192
+
+      ________________________________________________________________________
+
+      Q48_japan          Q48 Asian Americans have their roots in many different countries in Asia.  To what country or communities do you or your family trace their ancestry?
+
+           VALUE  LABEL
+               1  Japan
+
+           Data type: numeric
+           Record/column: 1/194
+
+
+
+
+
+
+
+
+                                  August 20, 2025
+
+
+
+      IGS Poll: 2024_01                                                Page 21
+
+
+      Q48_korea          Q48 Asian Americans have their roots in many different countries in Asia.  To what country or communities do you or your family trace their ancestry?
+
+           VALUE  LABEL
+               1  Korea
+
+           Data type: numeric
+           Record/column: 1/196
+
+      ________________________________________________________________________
+
+      Q48_laos           Q48 Asian Americans have their roots in many different countries in Asia.  To what country or communities do you or your family trace their ancestry?
+
+           VALUE  LABEL
+               1  Laos
+
+           Data type: numeric
+           Record/column: 1/198
+
+      ________________________________________________________________________
+
+      Q48_malaysia       Q48 Asian Americans have their roots in many different countries in Asia.  To what country or communities do you or your family trace their ancestry?
+
+           VALUE  LABEL
+               1  Malaysia
+
+           Data type: numeric
+           Record/column: 1/200
+
+      ________________________________________________________________________
+
+      Q48_nepal          Q48 Asian Americans have their roots in many different countries in Asia.  To what country or communities do you or your family trace their ancestry?
+
+           VALUE  LABEL
+               1  Nepal
+
+           Data type: numeric
+           Record/column: 1/202
+
+      ________________________________________________________________________
+
+      Q48_others         Q48 Asian Americans have their roots in many different countries in Asia.  To what country or communities do you or your family trace their ancestry?
+
+           VALUE  LABEL
+               1  Other
+
+           Data type: numeric
+           Record/column: 1/204
+
+
+
+
+
+
+
+
+                                  August 20, 2025
+
+
+
+      IGS Poll: 2024_01                                                Page 22
+
+
+      Q48_pakistan       Q48 Asian Americans have their roots in many different countries in Asia.  To what country or communities do you or your family trace their ancestry?
+
+           VALUE  LABEL
+               1  Pakistan
+
+           Data type: numeric
+           Record/column: 1/206
+
+      ________________________________________________________________________
+
+      Q48_philippines    Q48 Asian Americans have their roots in many different countries in Asia.  To what country or communities do you or your family trace their ancestry?
+
+           VALUE  LABEL
+               1  Philippines
+
+           Data type: numeric
+           Record/column: 1/208
+
+      ________________________________________________________________________
+
+      Q48_samoa          Q48 Asian Americans have their roots in many different countries in Asia.  To what country or communities do you or your family trace their ancestry?
+
+           VALUE  LABEL
+               1  Samoa
+
+           Data type: numeric
+           Record/column: 1/210
+
+      ________________________________________________________________________
+
+      Q48_sri_lanka      Q48 Asian Americans have their roots in many different countries in Asia.  To what country or communities do you or your family trace their ancestry?
+
+           VALUE  LABEL
+               1  Sri Lanka
+
+           Data type: numeric
+           Record/column: 1/212
+
+      ________________________________________________________________________
+
+      Q48_taiwan         Q48 Asian Americans have their roots in many different countries in Asia.  To what country or communities do you or your family trace their ancestry?
+
+           VALUE  LABEL
+               1  Taiwan
+
+           Data type: numeric
+           Record/column: 1/214
+
+
+
+
+
+
+
+
+                                  August 20, 2025
+
+
+
+      IGS Poll: 2024_01                                                Page 23
+
+
+      Q48_thailand       Q48 Asian Americans have their roots in many different countries in Asia.  To what country or communities do you or your family trace their ancestry?
+
+           VALUE  LABEL
+               1  Thailand
+
+           Data type: numeric
+           Record/column: 1/216
+
+      ________________________________________________________________________
+
+      Q48_vietnam        Q48 Asian Americans have their roots in many different countries in Asia.  To what country or communities do you or your family trace their ancestry?
+
+           VALUE  LABEL
+               1  Vietnam
+
+           Data type: numeric
+           Record/column: 1/218
+
+      ________________________________________________________________________
+
+      Q49                Q49 Were you born in the United States or another country?
+
+           VALUE  LABEL
+               1  United States
+               2  Another country
+
+           Data type: numeric
+           Record/column: 1/220
+
+      ________________________________________________________________________
+
+      Q50a               Q50a Generally speaking in politics do you think of yourself as a . . .
+
+           VALUE  LABEL
+               1  Democrat
+               2  Republican
+               3  Independent
+               4  Something else
+
+           Data type: numeric
+           Record/column: 1/222
+
+      ________________________________________________________________________
+
+      Q50b               Q50b Would you identify yourself as a strong or not very strong Democrat?
+
+           VALUE  LABEL
+               1  Strong Democrat
+               2  Not a strong Democrat
+
+           Data type: numeric
+           Record/column: 1/224
+
+
+
+                                  August 20, 2025
+
+
+
+      IGS Poll: 2024_01                                                Page 24
+
+
+      Q50c               Q50c Would you identify yourself as a strong or not very strong Republican?
+
+           VALUE  LABEL
+               1  Strong Republican
+               2  Not a strong Republican
+
+           Data type: numeric
+           Record/column: 1/226
+
+      ________________________________________________________________________
+
+      Q50d               Q50d As of today, do you lean more to the Democratic Party or the Republican Party?
+
+           VALUE  LABEL
+               1  Democratic Party
+               2  Republican Party
+               3  Neither
+
+           Data type: numeric
+           Record/column: 1/228
+
+      ________________________________________________________________________
+
+      Q51                Q51 In general, how would you describe your political views?
+
+           VALUE  LABEL
+               1  Strongly conservative
+               2  Somewhat conservative
+               3  Moderate
+               4  Somewhat liberal
+               5  Strongly liberal
+
+           Data type: numeric
+           Record/column: 1/230
+
+      ________________________________________________________________________
+
+      Q52                Q52 Thinking back to the last Presidential election in November 2020.  For whom did you vote for President in that election?
+
+           VALUE  LABEL
+               1  Joe Biden, Democrat
+               2  Donald Trump, Republican
+               3  Other candidate/did not vote for President
+
+           Data type: numeric
+           Record/column: 1/232
+
+
+
+
+
+
+
+
+                                  August 20, 2025
+
+
+
+      IGS Poll: 2024_01                                                Page 25
+
+
+      Q53                Q53 Which of the following best describes your present marital status?
+
+           VALUE  LABEL
+               1  Married
+               2  Not married, but live together
+               3  Separated or divorced
+               4  Widowed
+               5  Single, never married
+
+           Data type: numeric
+           Record/column: 1/234
+
+      ________________________________________________________________________
+
+      Q54                Q54 Are you or is anyone in your household a member of a labor union?¬†
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+
+           Data type: numeric
+           Record/column: 1/236
+
+      ________________________________________________________________________
+
+      Q54x               Q54x Do you own or rent your current residence?
+
+           VALUE  LABEL
+               1  Own
+               2  Rent
+               3  Other
+
+           Data type: numeric
+           Record/column: 1/238
+
+      ________________________________________________________________________
+
+      Q55                Q55 We don't want to know your exact income, but just roughly, could you tell us if your annual household income before taxes is . . . ¬†
+
+           VALUE  LABEL
+               1  Less than $20,000
+               2  $20,000-$39,999
+               3  $40,000-$59,999
+               4  $60,000-$99,999
+               5  $100,000-$149,999
+               6  $150,000-$199,999
+               7  $200,000 or more
+
+           Data type: numeric
+           Record/column: 1/240
+
+
+
+
+                                  August 20, 2025
+
+
+
+      IGS Poll: 2024_01                                                Page 26
+
+
+      Q56_1              Q56 What is your sexual orientation? (Multiple selection allowed)
+
+           VALUE  LABEL
+               1  Straight
+
+           Data type: numeric
+           Record/column: 1/242
+
+      ________________________________________________________________________
+
+      Q56_2              Q56 What is your sexual orientation? (Multiple selection allowed)
+
+           VALUE  LABEL
+               1  Gay
+
+           Data type: numeric
+           Record/column: 1/244
+
+      ________________________________________________________________________
+
+      Q56_3              Q56 What is your sexual orientation? (Multiple selection allowed)
+
+           VALUE  LABEL
+               1  Lesbian
+
+           Data type: numeric
+           Record/column: 1/246
+
+      ________________________________________________________________________
+
+      Q56_4              Q56 What is your sexual orientation? (Multiple selection allowed)
+
+           VALUE  LABEL
+               1  Bisexual
+
+           Data type: numeric
+           Record/column: 1/248
+
+      ________________________________________________________________________
+
+      Q56_5              Q56 What is your sexual orientation? (Multiple selection allowed)
+
+           VALUE  LABEL
+               1  Don't know
+
+           Data type: numeric
+           Record/column: 1/250
+
+
+
+
+
+
+
+
+                                  August 20, 2025
+
+
+
+      IGS Poll: 2024_01                                                Page 27
+
+
+      Q56_6              Q56 What is your sexual orientation? (Multiple selection allowed)
+
+           VALUE  LABEL
+               1  Prefer not to respond
+
+           Data type: numeric
+           Record/column: 1/252
+
+      ________________________________________________________________________
+
+      Q56_7              Q56 What is your sexual orientation? (Multiple selection allowed)
+
+           VALUE  LABEL
+               1  Other
+
+           Data type: numeric
+           Record/column: 1/254
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  August 20, 2025
